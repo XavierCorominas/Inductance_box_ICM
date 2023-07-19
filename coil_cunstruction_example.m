@@ -9,7 +9,7 @@ addpath (<<Path to your Simnibs4.0 folder>>)
 
 
 
-% >reate cells representing coil coordinates and correct for empty values
+% Create cells representing coil coordinates and correct for empty values
 T = readtable('coilCoordinates1mm.xlsx');
 H= table2array(T);
 
